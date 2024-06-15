@@ -1,0 +1,31 @@
+.flex-container>div {
+    display: inline-block;
+    margin: 40px;
+    padding: 50px;
+    border: 3px solid black;
+    border-style: double dotted;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    background-image: url(background.svg);
+    text-align: center;
+    font-family: cursive;
+}
+
+.flex-box>div {
+    display: inline-block;
+    margin: 40px;
+    padding: 50px;
+    border: 3px solid black;
+    border-style: double dotted;
+    height: auto;
+}
+
+.flex-box {
+    display: flex;
+    background-image: url(background.svg);
+    text-align: center;
+    font-family: cursive;
+}

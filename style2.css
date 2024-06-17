@@ -7,25 +7,23 @@ body {
     background-color: #f9fafe;
 }
 
-img {
+.category_sec .item img {
     border: 1px solid skyblue;
+    border-radius: 10%;
+    padding: 10px;
 }
 
-h3 {
-    text-align: left;
+img:hover {
+    background-color: skyblue;
 }
 
-div {
-    padding: 2px;
-}
-
-.container {
+.category_sec {
     display: flex;
     flex-wrap: wrap;
     align-items: start;
     gap: 2px;
 }
 
-.container div {
+.category_sec .item {
     width: 12%;
 }

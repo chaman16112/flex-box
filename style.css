@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+}
+
+.signin .input .email {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-shadow: 2px;
+}
+
+.signin .input .pass {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-shadow: 2px;
+}
+
+.signin .input input {
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+    padding: auto;
+}
+
+.signin {
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.signin .content {
+    padding: 30px;
+    margin: 20px;
+}
+
+.signin .button button {
+    background-color: green;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.icon button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.icon button i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.signin .checkbox {
+    display: flex;
+    justify-content: space-between;
+}
